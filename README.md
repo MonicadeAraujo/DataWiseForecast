@@ -1,19 +1,23 @@
 # DataWiseForecast
 Prevendo Interrupções de Energia em São Paulo com Apoio em Dados Climáticos
 
- visão Geral
+ # visão Geral
+ 
 DataWise Forecast é um projeto de monitoramento e previsão de eventos climáticos críticos, com foco na cidade de São Paulo. Utilizando integração de dados em tempo real e análises preditivas, o projeto visa antecipar quedas de energia causadas por chuvas intensas, ventos fortes e quedas de árvores, com atenção especial às regiões hospitalares.
 
-  Problema
+  # Problema
+  
 A ausência de informações climáticas confiáveis prejudica a eficiência da gestão energética, atrasando respostas a emergências e dificultando o planejamento estratégico. Em São Paulo, regiões próximas a hospitais são especialmente vulneráveis a alagamentos e interrupções no fornecimento de energia — o que pode comprometer equipamentos críticos e colocar vidas em risco.
 
-  Objetivo
+  # Objetivo
+  
 Desenvolver uma solução tecnológica baseada em dados climáticos, geolocalização e histórico de falhas para prever interrupções energéticas e permitir respostas mais rápidas, principalmente em áreas hospitalares.
 
-  Regiões Monitoradas
+  # Regiões Monitoradas
+  
 Foram mapeadas avenidas e hospitais com histórico de alagamentos e interrupções:
 
-  Avenidas:
+ # Avenidas:
 Avenida Sumaré
 
 Av. Nove de Julho
@@ -26,7 +30,8 @@ Av. Antonio Munhoz Bonilha
 
 ... e outras
 
- Hospitais:
+# Hospitais:
+ 
 Hospital São Luiz
 
 Hospital Metropolitano
@@ -39,14 +44,16 @@ Hospital Vila Nova Star
 
 ... mais de 30 unidades hospitalares
 
- Proposta de Solução
+ # Proposta de Solução
+ 
 Construção de uma base de dados limpa, segura e acessível.
 
 Integração com APIs públicas e dados meteorológicos em tempo real.
 
 Modelos de machine learning treinados com dados históricos.
 
-Dashboards interativos em Power BI com:
+
+# Dashboards interativos em Power BI com:
 
 Mapas de calor
 
@@ -54,7 +61,7 @@ Correlação entre clima e falhas energéticas
 
 Alertas preditivos para áreas críticas
 
- Arquitetura da Solução
+# Arquitetura da Solução
 Power Automate: ETL e limpeza de dados
 
 Dataverse: Armazenamento estruturado
@@ -65,10 +72,10 @@ Python (Pandas & NumPy): Análise de padrões climáticos
 
 Oracle: Apoio ao armazenamento de dados estruturados
 
-A coleta de dados utiliza bases reais como:
-🔗 Visual Crossing Weather
+# A coleta de dados utiliza bases reais como:
+🔗 Base de Dados Real: https://www.visualcrossing.com/
 
- Destaques Analíticos
+ # Destaques Analíticos
 Correlação entre precipitação máxima e interrupções
 
 Relação entre velocidade do vento e tempo de inatividade
