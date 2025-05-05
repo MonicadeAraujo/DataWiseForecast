@@ -83,3 +83,13 @@ Relação entre velocidade do vento e tempo de inatividade
 Gráficos por CEP e duração das falhas
 
 Análises de séries temporais e padrões repetitivos
+
+# Time DataWise
+Pedro Lopes
+
+Mônica Araújo
+
+Antônio Carlos
+
+# Video Pitch 
+https://youtu.be/cnc5qpt8i-Q
